@@ -1,6 +1,6 @@
-# Huckleberry Agency Website
+# CSSforJSChallenge01 Huckleberry Agency Website
 
-In this workshop, you'll build a minimal landing page for an agency.
+For this challenge, you'll build a minimal landing page for an agency.
 
 This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning. It relies heavily on padding, margin, and border.
 
@@ -54,17 +54,17 @@ You can visit `http://localhost:9000` to view the page. You should see a bunch o
 
 - You're given a decent start in terms of the HTML markup, but not much in the way of styles. You'll be expected to edit `style.css` to implement the styles. You can also edit `index.html` if you wish, though it should be possible to solve this project touching only `style.css`.
 
-- Don't worry too much about "best practices". Later in this course, we'll see how to create scalable encapsulated styles. For now, the goal is simply to implement the designs in the screenshots, with whatever organizational strategy comes most naturally to you.
+- Don't worry too much about "best practices". For now, the goal is simply to implement the designs in the screenshots, with whatever organizational strategy comes most naturally to you.
 
-- You may be tempted to reach for CSS strategies we haven't yet seen in the course, like flexbox or absolute positioning. Please try and complete this workshop without them. This module is focused on flow-layout and the box-model, and it is possible to lay everything out on the page using only padding, border, and margin. It's important to be comfortable with these primitives before moving on to more-complex subjects.
+- Please try and complete this workshop without flexbo and absolute positioning. This challenge is focused on flow-layout and the box-model, and it is possible to lay everything out on the page using only padding, border, and margin. It's important to be comfortable with these primitives before moving on to more-complex subjects.
 
-- Future workshops will provide a React starter. For the early workshops, the focus is on the fundamentals, so we're using pure HTML and CSS. If you feel more comfortable using a JS framework like React, you can go ahead, but please don't use any component libraries or CSS frameworks. All CSS should be written by hand.
+- Future challenges will provide a React starter. For the early challenges, the focus is on the fundamentals, so we're using pure HTML and CSS. If you feel more comfortable using a JS framework like React, you can go ahead, but please don't use any component libraries or CSS frameworks. All CSS should be written by hand.
 
 - **Pay close attention to alignment.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
 
 ![Desktop mockup with a vertical line showing alignment](./docs/aligned.png)
 
-That said: Don't worry if you can't create a pixel-perfect recreation. In the solution video, I'll show you exactly how I did it. Spend an hour or so on this project, and submit whatever you have at that point.
+That said: Don't worry if you can't create a pixel-perfect recreation. Spend an hour or so on this project, and submit whatever you have at that point.
 
 ## Design tokens
 
@@ -74,7 +74,7 @@ Nowadays, it's common to have a set of _design tokens_. A design token is a valu
 
 We'll learn more about this idea later, but for now, you can copy/paste the values from this list as-needed. Don't worry about being DRY or using variables; Plop these values in, wherever you need them.
 
-**If you find it difficult to use these tokens, or if you're not able to achieve a result you're happy with, don't worry about it.** Solve it however you can, and then watch the solution video to see how I did it.
+**If you find it difficult to use these tokens, or if you're not able to achieve a result you're happy with, don't worry about it.** Solve it however you can, and then in friday we will share the solutions of others in the challenge.
 
 ### Spacing
 
@@ -132,6 +132,4 @@ Grays:
 
 ## Submissions
 
-**Workshops are submitted through the course platform.** Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
-
-If you're not comfortable with Git, you can upload a `.zip` file using Dropbox or Google Drive, and paste a link to the public file instead.
+**Add the link to your solution to the One Note Page in the column correspondent to that challenge.**
