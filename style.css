@@ -7,54 +7,70 @@ html,
 body {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
 }
 
 /* Add styles here! */
-:root {
-  --primary: hsl(160deg, 100%, 30%);
-  --sec-light: hsl(45deg, 100%, 50%);
-  --sec-dark: hsl(45deg, 100%, 40%);
-  /* Grays */
-  --black: hsl(0deg, 0%, 0%);
-  --very-dark: hsl(0deg, 0%, 10%);
-  --dark: hsl(0deg, 0%, 30%);
-  --medium: hsl(0deg, 0%, 40%);
-  --light: hsl(0deg, 0%, 60%);
-  --white: hsl(0deg, 0%, 100%);
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
-h1{
-  padding-top: 48px;
-}
-
-strong {
-  color:var(--primary);
-}
-
-header, main {
-  padding: 0 16px;
-}
-
-header {
-  border-bottom: 8px solid var(--medium);
-}
-
-main {
-  border: 48px solid var(--light);
-  border-left: 0;
-  border-right: 0;
-}
-
-.indented-heading {
-  background-color: var(--sec-light);
-  border-bottom: 8px solid var(--sec-dark);
-  margin-left: -16px;
-  padding: 8px 16px;
-  width: -moz-fit-content;
-  width: fit-content;
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .intro-chunk {
-  padding-bottom: 32px;
+  padding: 96px 0 48px;
+  max-width: 400px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 96px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.indented-heading {
+  background: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
 }
