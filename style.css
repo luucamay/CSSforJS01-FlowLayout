@@ -10,3 +10,15 @@ body {
 }
 
 /* Add styles here! */
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --sec-light: hsl(45deg, 100%, 50%);
+  --sec-dark: hsl(45deg, 100%, 40%);
+  /* Grays */
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
