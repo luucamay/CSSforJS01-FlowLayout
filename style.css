@@ -7,6 +7,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 /* Add styles here! */
@@ -21,4 +22,37 @@ body {
   --medium: hsl(0deg, 0%, 40%);
   --light: hsl(0deg, 0%, 60%);
   --white: hsl(0deg, 0%, 100%);
+}
+
+h1{
+  padding-top: 48px;
+}
+
+strong {
+  color:var(--primary);
+}
+
+header, main {
+  padding: 0 16px;
+}
+
+header {
+  border-bottom: 8px solid var(--medium);
+}
+
+main {
+  border: 48px solid var(--light);
+  border-left: 0;
+  border-right: 0;
+}
+
+.indented-heading {
+  background-color: var(--sec-light);
+  border-bottom: 8px solid var(--sec-dark);
+  margin: 8px 0 0 -16px;
+  padding: 0 16px;
+}
+
+.intro-chunk {
+  padding-bottom: 32px;
 }
