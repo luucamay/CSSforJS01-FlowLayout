@@ -49,8 +49,10 @@ main {
 .indented-heading {
   background-color: var(--sec-light);
   border-bottom: 8px solid var(--sec-dark);
-  margin: 8px 0 0 -16px;
-  padding: 0 16px;
+  margin-left: -16px;
+  padding: 8px 16px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .intro-chunk {
